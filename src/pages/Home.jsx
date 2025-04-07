@@ -5,7 +5,7 @@ import '../App.css'
 
 const Home = () => {
     return (
-        <main className='mx-40 mt-10'>
+        <main id="inicio" className='mx-5 mt-10'>
             <Header></Header>
             <Presentation></Presentation>
         </main>
