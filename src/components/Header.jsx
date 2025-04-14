@@ -17,13 +17,13 @@ function Header() {
         </nav>
         <div className='hidden ml-auto px-10 text-white border-1 border-[#A855F7] p-3 rounded-full lg:flex lg:w-fit lg:px-10'>
             <a className='mr-10' href="https://github.com/AlexALGA04" target="_blank">
-            <img className='w-[30px] h-[30px]' src={githubIcon} alt="GitHub"/>
+            <img className='w-[30px] h-[30px] object-contain' src={githubIcon} alt="GitHub"/>
             </a>
             <a className='mr-10' href="https://linkedin.com/in/tuusuario" target="_blank">
-            <img className='w-[30px] h-[30px]' src={linkedinIcon} alt="LinkedIn"/>
+            <img className='w-[30px] h-[30px] object-contain' src={linkedinIcon} alt="LinkedIn"/>
             </a>
             <a href="https://linkedin.com/in/tuusuario" target="_blank">
-            <img className='w-[30px] h-[30px]' src={gmailIcon} alt="SendGmail"/>
+            <img className='w-[30px] h-[30px] object-contain' src={gmailIcon} alt="SendGmail"/>
             </a>
         </div>
     </header>
