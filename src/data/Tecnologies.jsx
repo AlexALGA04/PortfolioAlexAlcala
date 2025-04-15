@@ -1,3 +1,5 @@
+
+
 const tecnologiasFront = [
     { nombre: 'HTML', imagen: '../img/icons/tecnologies/react.png' },
     { nombre: 'CSS', imagen: '../img/icons/tecnologies/css.png' },

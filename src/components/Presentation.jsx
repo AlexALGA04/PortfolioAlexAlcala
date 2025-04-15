@@ -8,7 +8,7 @@ function Presentation() {
   return (
     <div className='flex justify-center mt-20'>
         <div className="w-[80%]">
-            <h1 className='text-white text-center text-5xl font-bold lg:text-left lg:text-6xl'>Soy <span className='text-[#A855F7]'>Àlex Alcalá</span><span>👋</span></h1>
+            <h1 className='text-white text-center text-5xl font-bold lg:text-left lg:text-6xl'>Soy <span className='text-[#A855F7]'>Àlex Alcalá</span><span className="saludando">👋</span></h1>
             <h2 className='text-white text-center text-3xl my-10 lg:text-left lg:text-4xl'>Desarrollador Fullstack</h2>
             <p style={{ fontFamily: 'Quicksand, sans-serif' }} className='text-[#9CA3AF] mt-15 text-[18px] w-[90%] text-justify mx-auto lg:mx-0 lg:text-[25px] lg:w-[60%]'>
                 Soy un desarrollador web motivado con experiencia en diversas tecnologías, 
@@ -21,7 +21,7 @@ function Presentation() {
             </div>
         </div>
         <div className="items-center hidden lg:flex">
-          <img id="coheteImg" src={Cohete} className='object-contain'/>
+          <img id="coheteImg" src={Cohete} className='object-contain flotando'/>
         </div>
     </div>
   )
